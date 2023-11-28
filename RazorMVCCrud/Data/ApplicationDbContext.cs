@@ -12,5 +12,6 @@ namespace RazorMVCCrud.Data
 
 
         public DbSet<Product> Products { get; set; }
+
     }
 }

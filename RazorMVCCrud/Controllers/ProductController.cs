@@ -55,6 +55,7 @@ namespace RazorMVCCrud.Controllers
             {
                 _context.Products.Add(product);
                 _context.SaveChanges();
+                TempData.Add("success", "Product Created Successfuly");
                 
                     return RedirectToAction(nameof(Index));
                 
@@ -102,6 +103,7 @@ namespace RazorMVCCrud.Controllers
                 _context.ChangeTracker.Clear();
                 _context.Products.Update(product);
                 _context.SaveChanges();
+                TempData.Add("success", "Product Updated Successfuly");
 
                 return RedirectToAction(nameof(Index));
 
@@ -135,6 +137,8 @@ namespace RazorMVCCrud.Controllers
 
             _context.Products.Remove(product);
             _context.SaveChanges();
+            TempData.Add("success", "Product Deleted Successfuly");
+
             return RedirectToAction("Index");
         }
     }
