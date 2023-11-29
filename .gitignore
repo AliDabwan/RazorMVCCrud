@@ -363,3 +363,5 @@ MigrationBackup/
 FodyWeavers.xsd
 /RazorMVCCrud/appsettings.json
 /RazorMVCCrud/appsettings.Development.json
+/RazorApp/appsettings.json
+/RazorApp/appsettings.Development.json
