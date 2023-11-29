@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorMVCCrud", "RazorMVCCrud\RazorMVCCrud.csproj", "{DA45FF21-7C42-4CE5-9AA0-59B5FCDBD6AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorApp", "RazorApp\RazorApp.csproj", "{AB6A8C48-E0E8-4151-860D-0D66514435F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DA45FF21-7C42-4CE5-9AA0-59B5FCDBD6AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA45FF21-7C42-4CE5-9AA0-59B5FCDBD6AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA45FF21-7C42-4CE5-9AA0-59B5FCDBD6AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB6A8C48-E0E8-4151-860D-0D66514435F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB6A8C48-E0E8-4151-860D-0D66514435F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB6A8C48-E0E8-4151-860D-0D66514435F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB6A8C48-E0E8-4151-860D-0D66514435F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
